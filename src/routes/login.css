@@ -1,0 +1,75 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(247, 247, 247, 0.353),rgb(19, 17, 17)), url('https://i.pinimg.com/564x/24/b5/af/24b5afca10c41d44cc5b1036dbb84b94.jpg');
+    background-size: cover;
+  }
+  
+  .loginContainer {
+    width: 400px;
+    padding: 20px;
+    background: #ffffff49;
+    border-radius: 5px;
+    box-shadow: 0 20px 70px 22px rgba(0, 0, 0, 0.552);
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .inputbox {
+    margin-bottom: 20px;
+  }
+  
+  .inputbox span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .logintitle{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #7d0707f5;
+    color: white;
+}
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .errlogin {
+    color: red;
+    text-align: center;
+  }
+  
+  .linkd{
+    color: black ;
+    position: relative;
+    left: 2.5rem;
+    bottom: 2rem;
+  }
+
+  .inputbox{
+    color: #605c5cfe;
+  }

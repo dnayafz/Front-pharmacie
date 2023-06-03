@@ -1,0 +1,66 @@
+.zone-container {
+    background-image: linear-gradient(rgba(247, 247, 247, 0.353),rgb(19, 17, 17)), url('https://i.pinimg.com/564x/24/b5/af/24b5afca10c41d44cc5b1036dbb84b94.jpg');
+    background-size: cover;
+    
+  }
+  
+  .table-list {
+    background-color:rgba(241, 240, 234, 0.585) ;
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 20px; /* Espacement vertical entre les lignes */
+    border: none;
+   
+
+  }
+  
+  .table-list th,
+  .table-list td {
+    border: 1px solid #160909;
+    padding: 20px;
+    text-align: left;
+    
+    border: none;
+    
+
+  }
+
+  
+
+ 
+
+  .zone-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    position: relative;
+   
+    margin-bottom: 3rem;
+    font-size: x-large;
+    margin-top: -1rem;
+
+  }
+
+  .savee-button {
+    cursor: pointer;
+    background-color: #7d0707f5;
+    color: white;
+    position: relative;
+    
+    width: 11rem;
+    padding: 1rem;
+  
+  }
+  .transparent-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 50px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 50px 22px rgba(255, 255, 255, 0.765);
+    margin-top: 7rem;
+  }
+  
+ 

@@ -1,0 +1,258 @@
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 0rem 0px rgba(216, 59, 69, 0.422);
+    border-radius: 9px;
+    padding: 30px;
+    width: 70%;
+    margin: 20px;
+    margin-top: 5rem ;
+}
+.containeregister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(247, 247, 247, 0.196),rgb(19, 17, 17)), url('https://i.pinimg.com/564x/24/b5/af/24b5afca10c41d44cc5b1036dbb84b94.jpg');
+    height: 100vh;
+    background-size: cover;
+  }
+
+
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list-view {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    
+    border-radius: 1rem;
+    padding: 20px;
+    width: 70%;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+/* Styling for dropdown list options */
+.container-wrapper {
+    min-height: 100vh; /* Hauteur minimale de la vue */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex: 1; /* Le contenu du conteneur prendra toute la hauteur disponible */
+    background-image: linear-gradient(rgba(247, 247, 247, 0.353),rgb(19, 17, 17)), url('https://i.pinimg.com/564x/24/b5/af/24b5afca10c41d44cc5b1036dbb84b94.jpg');
+    background-size: cover;
+
+  }
+  
+  .add-pharmacie-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 970px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 20px 70px 22px rgba(0, 0, 0, 0.389);
+  }
+  
+  .add-pharmacie-form h3 {
+    margin-bottom: 10px;
+  }
+  
+  .add-pharmacie-form input,
+  .add-pharmacie-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .add-pharmacie-form button {
+    background-color: #920404;
+    color: white;
+    border: none;
+    padding: 10px 90px;
+    margin-left: 22.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .pharmacie-form-title{
+    padding: 2rem;
+    font-weight: 40rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+  }
+  .add-pharmacie-form button:hover {
+    background-color: #3b7f87;
+  }
+  
+  .list-view{
+    background-color:rgba(241, 240, 234, 0.585) ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    width: 80rem;
+
+  }
+  
+  
+  table tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  table th {
+    text-align: left; /* Alignement du texte à gauche pour les noms de colonne */
+  }
+  
+  table td {
+    text-align: left; /* Alignement du texte à gauche pour le contenu des colonnes */
+  }
+  
+  
+  .list-view h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .pharmacie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .pharmacie-table th,
+  .pharmacie-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .pharmacie-name-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem ; 
+    
+  }
+  
+  .pharmacie-table th {
+    background-color: #f2f2f2;
+    
+  }
+  
+  
+  .pharmacie-table button {
+    background-color: #8a0815;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pharmacie-table button:hover {
+    background-color: #c82333;
+  }
+   
+  .delete-button {
+    background-color: rgb(153, 6, 6);
+    color: white;
+  }
+  
+  .update-button {
+    background-color: rgba(0, 0, 0, 0.743);
+    color: white;
+  }
+
+  .untitre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    position: relative;
+   
+    margin-bottom: 3rem;
+    font-size: x-large;
+    margin-top: -1rem;
+  }
+
+  .deletebtn{
+    cursor: pointer;
+    background-color: #7d0707f5;
+    color: white;
+    position: relative;
+    
+    width: 7rem;
+    padding: 10px;
+  
+  }
+  
+  
+  .table {
+    width: 100%;
+  }
+  
+  .map-container {
+    width: 150%;
+     height: 500px;
+     margin-left:-150px ;
+      margin-top:-17rem;
+      margin-bottom: 14rem;
+      
+  }
